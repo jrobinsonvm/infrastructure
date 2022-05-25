@@ -1,8 +1,8 @@
 apiVersion: run.tanzu.vmware.com/v1alpha2
 kind: TanzuKubernetesCluster
 metadata:
-  name: tkg-xyz-vsphere-lob-test1
-  namespace: sandbox
+  name: tkg-xyz-vsphere-lob-edge01
+  namespace: production
 spec:
   topology:
     controlPlane:
